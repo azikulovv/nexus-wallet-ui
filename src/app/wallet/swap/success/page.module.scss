@@ -1,0 +1,46 @@
+.success {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+  padding: 1rem;
+
+  &__icon {
+    svg {
+      width: 3rem;
+      height: 3rem;
+      flex-shrink: 0;
+    }
+  }
+
+  &__title {
+    margin-top: 1rem;
+
+    color: rgb(40, 40, 45);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.26px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-top: 0.5rem;
+
+    color: rgb(142, 142, 147);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.43px;
+  }
+}
+
+.actions {
+  margin-top: auto;
+  margin-bottom: 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.5rem;
+  width: 100%;
+}
